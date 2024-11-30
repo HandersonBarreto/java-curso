@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Handerson\Cursos\Java\secao_10_comportamento_de_memoria_arrays_listas\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3755193426.index
+1977545594.index

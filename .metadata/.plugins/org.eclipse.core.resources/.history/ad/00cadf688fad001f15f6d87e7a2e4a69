@@ -1,0 +1,38 @@
+package aplicacao;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		List<Integer> listaId = new ArrayList<>();
+		List<String> listaNome = new ArrayList<>();
+		List<Double> listSalario = new ArrayList<Double>();
+
+		System.out.print(" How many employees will be registered? ");
+		int qtdeEmpregados = sc.nextInt();
+
+		for (int i = 0; i < qtdeEmpregados; i++) {
+			System.out.println("Empregado #:" + (i + 1));
+			System.out.print("ID: ");
+			listaId.add(sc.nextInt());
+			System.out.print("Nome: ");
+			sc.next();
+			String nome = sc.nextLine();
+			System.out.print("Salario: ");
+			double salario = sc.nextDouble();
+		}
+		
+		for(int i = 0; i <qtdeEmpregados, i++) {
+			
+		}
+
+	}
+
+}

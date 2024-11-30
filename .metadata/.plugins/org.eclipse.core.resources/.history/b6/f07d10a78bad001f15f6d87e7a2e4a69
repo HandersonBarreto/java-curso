@@ -1,0 +1,31 @@
+package entidade;
+
+public class Empregado {
+	
+	private Integer id;
+	private String nome;
+	private Double salario;
+	
+	class Empregados{
+		
+	}
+
+	
+	class Empresagados( Integer id, String name, double salario) {
+		
+		this.id = id;
+		this.name = name;
+		this.String
+	}
+
+	public Empresagados(Integer id, Integer string, double salario) {
+		super();
+		this.id = id;
+		String = string;
+		this.salario = salario;
+	}
+
+
+	
+	
+}
